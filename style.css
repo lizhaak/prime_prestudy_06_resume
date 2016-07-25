@@ -1,0 +1,95 @@
+.reveal {
+	width: 100%;
+}
+.revealButton {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	height:40px;
+	font: normal 600 18px/20px Tahoma, Geneva, sans-serif;
+}
+.revealButton:hover{
+	background-color: #6ec39a;
+}
+body {
+  background-color:#101010;
+}
+.wood {
+	background: #101010 url('http://i.imgur.com/kvd1mLX.jpg') no-repeat center top;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: 'DejaVuSansMono';
+  src: url('DejaVuSansMono.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.all {
+	width:850px;
+	margin: 25px auto 50px;
+	background: linear-gradient(to bottom, #E8E8E8, #6ec39a);
+	padding:0px 20px 20px;
+	display: none;
+}
+
+#picture {
+	float:right;
+	margin-top: 85px;
+	border-radius: 15px;
+	box-shadow: 1px 2px 2px #000;
+	border: 5px solid white;
+}
+#free {
+	color: #6ec39a;
+}
+.arrow {
+	float:left;
+	width:25px;
+	height: 18px;
+	margin:0px 5px 0px 0px;
+}
+header, h1, h2 {
+	color: #2B2B2B;
+}
+header {
+	font: normal bold 36px/40px "Arial Black", Gadget, sans-serif;
+	border-bottom: 1px solid #999;
+}
+h1 {
+	font: normal 400 28px/30px 'DejaVuSansMono', Gadget, sans-serif;
+	margin-top: 35px;
+}
+h2 {
+	border-bottom: 1px solid #999;
+}
+#contact1, #school, #title {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#skills, #description, .year, .dash, .course, .add {
+	font-family: "Courier New", Courier, monospace;
+}
+.title, .year, .dash, #school {
+	font-style: italic;
+}
+#skills {
+	margin: 10px 10px 0 0;
+	padding-right: 10px;
+}
+.title{
+	font-weight: 200;
+	margin: 5px 0 5px 0;
+}
+#description {
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 0;
+}
+.year {
+	float:right;
+}
+.course{
+	width:850px;
+	margin-left: 10px;
+}
